@@ -1,0 +1,144 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.back{
+    min-height: 100vh;
+    background-image: url(backgroundd.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+
+    
+
+}
+
+/* logo */
+
+.top-bar{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.net-color{
+    color: #E50914;
+    font-size: 50px;
+    font-weight: 700;
+    margin-left: 140px;
+
+}
+
+
+
+.lang{
+    width: 550px;
+    height: 80px;
+    margin-left: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.select1{
+    height: 32px;
+    width: 124px;
+    background-color: transparent;
+    color: #dddddd;
+    font-weight: 700;
+    border-radius: 5px;
+
+}
+
+.button1{
+    height: 32px;
+    width: 76px;
+    border-radius: 5px;
+    background-color: #E50914;
+    border: none;
+    font-size: 16px;
+}
+
+.para{
+    display: flex;
+    width: 100%;
+    height: 155px;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 170px;
+
+}
+
+.p1{
+    font-size: 48px;
+    font-weight: 800;
+}
+.p2{
+    font-size: 16px;
+}
+.para1{
+    display: flex;
+    justify-content: center;
+    height: 60px;
+    align-items: center;
+    font-size: 16px;
+}
+
+.button2{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.input1{
+    height: 57px;
+    width: 340px;
+    background-color: rgba(0,0,0,0.5);
+    font-size: 16px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.button21{
+    height: 57px;
+    width: 180px;
+    background-color: #E50914;
+    font-size: 18px;
+    font-weight: 700;
+    border: none;
+    border-radius: 5px;
+}
+
+
+.p2{
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.hover:hover{
+
+    background-color:#c11119;
+}
+
+
+/* content */
+
+.curve{
+    height: 50px;
+    width: 100%;
+    border-top: 4px solid #E50914;
+    border-radius: 50% 50% 0 0;
+    background: black;
+    position: relative;
+    bottom: 30px;
+    box-shadow: 0px -10px 30px rgb(34, 34, 91);
+}
+
+
