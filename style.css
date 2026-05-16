@@ -455,8 +455,9 @@ input[type="checkbox"]:checked + .faq-header .plus {
     font-size: 18px;
     border: none;
     position: relative;
-    top: 1px;
+    top: 2px;
     border-radius: 5px;
+    font-size: 25px;
 }
 
 .in1{
